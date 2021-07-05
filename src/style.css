@@ -412,7 +412,7 @@ body{
 
     .main-content > aside{
         display: block;
-        background-color: #BFBFA8;
+        background-color: rgb(252, 252, 221);
         height: 100%;
         width: 100%;
         /* margin: 0; */
@@ -427,7 +427,7 @@ body{
         padding: .8rem 0;
         font-size: 22px;
         letter-spacing: 0.2rem;
-        background-color: #807F70;
+        background-color: #FFB958;
     }
     
     .main-content > aside > .aside-content > div > h2{
