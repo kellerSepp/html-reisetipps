@@ -177,17 +177,6 @@ body{
     }
 }
 
-@media (min-width:1025px) and (max-width:1200px){
-    .desktop-nav > .desktop-locations > ul > li > a{
-    }
-}
-
-
-.desktop-nav > div > ul > li{
-    /* padding: 0 .4rem; */
-}
-
-
 /*
  /$$   /$$                           /$$                             /$$   /$$
 | $$  | $$                          | $$                            | $$$ | $$
@@ -247,7 +236,7 @@ body{
 
 .mobile-nav-dropdown{
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
 }
 
@@ -281,12 +270,6 @@ body{
     top: 100px;
     font-size: 36px;
     /* float: right; */
-}
-.mobile-nav-content > div {
-    /* position: absolute; */
-    /* right: 15px; */
-    /* top: 55px; */
-
 }
 
 .mobile-nav-content > div > div{
@@ -526,10 +509,6 @@ body{
         padding: .5rem 0;
     }
 
-    div.aside-content > div:nth-of-type(odd) {
-        /* background: #F0CD9C; */
-    }
-
     div.aside-content > div > h2{
         margin: 0;
         padding: .5rem 0; 
@@ -553,11 +532,6 @@ body{
         margin: 0;
         */
         list-style: none;
-    }
-
-    .main-content > aside > .aside-content{
-        /* padding-left: 1rem; */
-
     }
 }
 
@@ -613,12 +587,6 @@ body{
         /* flex: auto; */
         display: block;
         /* width: 80%; */
-    }
-    .main-content > article{
-        /* width: auto; */
-        /* flex-basis: 80%;
-        flex-grow: 0;
-        flex-shrink: 0; */
     }
 
     .main-content > aside {
@@ -733,9 +701,6 @@ body{
 
 
 @media (min-width: 321px) and (max-width: 480px){
-    .global-footer{
-        /* background-color: red; */
-    }
     .global-footer > ul{
         display: flex;
         align-items: stretch;
