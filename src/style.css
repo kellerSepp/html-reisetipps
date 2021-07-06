@@ -119,6 +119,10 @@ body{
     background-color: rgb(252, 252, 221);
     position: relative;
     font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .header-nav > a > img {
@@ -319,6 +323,32 @@ body{
 |  $$$$$$$|  $$$$$$/| $$  | $$  |  $$$$/|  $$$$$$$| $$  | $$  |  $$$$/
 \_______/ \______/ |__/  |__/   \___/   \_______/|__/  |__/   \___/
 */
+
+
+section.advert{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* height: 50px; */
+    display: ;
+}
+
+section.advert *{
+    display: inline;
+}
+
+section.advert > div.circle{
+
+}
+
+section.advert > div.text{
+
+}
+
+section.advert > p{
+    margin: 0;
+    padding: 0;
+}
 
 .main-content{
     display: block;
