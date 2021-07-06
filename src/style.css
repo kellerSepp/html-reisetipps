@@ -424,6 +424,12 @@ section.advert > p{
     object-position: 40% 0;
 } */
 /* @media (min-width:320px) and (max-width:769px){ */
+@media (max-width:480px){
+    .main-content > article > h1{
+        font-size: 22px;
+    }
+}
+
 @media (min-width:320px) and (max-width:769px){
 
     .main-content > article > h1{
