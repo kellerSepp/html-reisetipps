@@ -504,7 +504,7 @@ section.advert > p{
 @media (min-width:770px){
 
     .main-content{
-        overflow: hidden;
+        /* overflow: hidden; */
         position: relative;
         width: 100%;
     }
