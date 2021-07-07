@@ -514,6 +514,10 @@ section.advert > p{
         width: 61.8%;
     }
 
+    .main-content > article > h1{
+        font-size: 2rem;
+    }
+
     .main-content > aside{
         /*
         TODO: find a way to calculate width.. auto won't
